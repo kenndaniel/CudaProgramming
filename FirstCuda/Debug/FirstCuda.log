@@ -1,0 +1,32 @@
+﻿Build started 2/7/2014 7:04:41 PM.
+     1>Project "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\FirstCuda\FirstCuda.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\FirstCuda.unsuccessfulbuild".
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\FirstCuda.unsuccessfulbuild".
+         Touching "Debug\FirstCuda.lastbuildstate".
+     1>Done Building Project "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\FirstCuda\FirstCuda.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

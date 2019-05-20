@@ -1,0 +1,37 @@
+﻿Build started 4/26/2014 3:23:06 PM.
+     1>Project "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\OpenACC\OpenACC.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenACC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OpenACC.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt OpenACC.cpp /clr:nostdlib 
+         OpenACC.cpp
+     1>OpenACC.cpp(27): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>OpenACC.cpp(28): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>OpenACC.cpp(31): warning C4068: unknown pragma
+     1>OpenACC.cpp(33): warning C4068: unknown pragma
+     1>OpenACC.cpp(18): warning C4101: 'deviceInput2' : unreferenced local variable
+     1>OpenACC.cpp(19): warning C4101: 'deviceOutput' : unreferenced local variable
+     1>OpenACC.cpp(17): warning C4101: 'deviceInput1' : unreferenced local variable
+     1>c:\users\admin\documents\visual studio 2010\projects\firstcuda\openacc\openacc.cpp(22): warning C4700: uninitialized local variable 'inputLength' used
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\admin\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\OpenACC.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\OpenACC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\OpenACC.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\OpenACC.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         OpenACC.vcxproj -> C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\OpenACC.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\OpenACC.exe;#1" /manifest Debug\OpenACC.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenACC.unsuccessfulbuild".
+         Touching "Debug\OpenACC.lastbuildstate".
+     1>Done Building Project "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\OpenACC\OpenACC.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.39

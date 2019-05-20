@@ -1,0 +1,78 @@
+﻿Build started 2/7/2014 7:03:15 PM.
+     1>Project "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3\MP3.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\MP3.lastbuildstate".
+       CudaClean:
+         cmd.exe /C "C:\Users\admin\AppData\Local\Temp\tmpe635fa928a374275b7ef8024d0ee8475.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel5.cu.obj "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3\kernel5.cu" -clean
+         
+         C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel5.cu.obj "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3\kernel5.cu" -clean 
+         Deleting file "Debug\kernel5.cu.deps".
+       InitializeBuildStatus:
+         Creating "Debug\MP3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3\kernel5.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel5.cu...
+         cmd.exe /C "C:\Users\admin\AppData\Local\Temp\tmpddc4bfd172834a96b654aebf03e0ec67.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel5.cu.obj "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3\kernel5.cu"
+         
+         C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel5.cu.obj "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3\kernel5.cu" 
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(131): warning : variable "args" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(137): warning : variable "inputImageFile" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(138): warning : variable "inputMaskFile" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(150): warning : variable "hostmask" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(151): warning : variable "mask" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(181): warning : variable "iCheck" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(131): warning : variable "args" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(137): warning : variable "inputImageFile" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(138): warning : variable "inputMaskFile" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(150): warning : variable "hostmask" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(151): warning : variable "mask" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(181): warning : variable "iCheck" was declared but never referenced
+         
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(131): warning C4101: 'args' : unreferenced local variable
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(181): warning C4101: 'iCheck' : unreferenced local variable
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(138): warning C4101: 'inputMaskFile' : unreferenced local variable
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(137): warning C4101: 'inputImageFile' : unreferenced local variable
+     1>C:/Users/admin/Documents/Visual Studio 2010/Projects/FirstCuda/MP3/kernel5.cu(150): warning C4101: 'hostmask' : unreferenced local variable
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MP3.exe.embed.manifest.res" Debug\MP3_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\MP3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MP3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\MP3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\MP3.lib" /MACHINE:X86 Debug\kernel5.cu.obj
+         Debug\MP3.exe.embed.manifest.res
+       Manifest:
+         Deleting file "Debug\MP3.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MP3.exe.embed.manifest" /manifest Debug\MP3.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MP3.exe.embed.manifest.res" Debug\MP3_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\MP3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MP3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\MP3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\MP3.lib" /MACHINE:X86 Debug\kernel5.cu.obj
+         Debug\MP3.exe.embed.manifest.res
+         MP3.vcxproj -> C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\MP3.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\MP3.unsuccessfulbuild".
+         Touching "Debug\MP3.lastbuildstate".
+     1>Done Building Project "C:\Users\admin\Documents\Visual Studio 2010\Projects\FirstCuda\MP3\MP3.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.84
